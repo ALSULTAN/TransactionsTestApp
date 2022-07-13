@@ -10,7 +10,7 @@ namespace Transactions.Models
         [JsonProperty("createdAt")]
         public int CreatedAt { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("name")] 
         public string Name { get; set; }
 
         [JsonProperty("bank_name")]
